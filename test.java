@@ -163,3 +163,8 @@ int Del_Node(pNode pHead,int back)
     _node->pNext = _node->pNext->pNext;  
     free(pSwap);  
     return data;}
+
+
+/*
+  添加新的文件，请求对方接受更改
+*/
